@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from '@styles/Home.module.css';
+import Nav from '@comp/Nav';
 
 export default function Home() {
   return (
@@ -7,7 +8,7 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
       </Head>
-
+      <Nav />
       <main className={styles.main}>
         <h1 className={`text-3xl font-bold`}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
