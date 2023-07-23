@@ -1,4 +1,4 @@
-import '../styles/globals.css';
+import '@styles/globals.css';
 
 const databaseUrl = process.env.DATABASE_URL;
 const apiKey = process.env.API_KEY;
