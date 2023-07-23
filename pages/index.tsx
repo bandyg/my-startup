@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import styles from '@styles/Home.module.css';
-import { inter, roboto_mono, cormorant } from '@styles/fonts';
 
 export default function Home() {
   return (
@@ -10,22 +9,17 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={`${inter.className} text-3xl font-bold`}>
+        <h1 className={`text-3xl font-bold`}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
-        <p
-          className={`${styles.description} ${roboto_mono.className} text-3xl font-bold underline`}
-        >
+        <p className={`${styles.description} text-3xl font-bold underline`}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
         </p>
 
         <div className={styles.grid}>
-          <a
-            href="https://nextjs.org/docs"
-            className={`${styles.card} ${cormorant.className}`}
-          >
+          <a href="https://nextjs.org/docs" className={`${styles.card} `}>
             <h3>Documentation &rarr;</h3>
             <p>Find in-depth information about Next.js features and API.</p>
           </a>

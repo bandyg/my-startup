@@ -1,18 +1,23 @@
-import { Inter, Roboto_Mono, Cormorant } from 'next/font/google';
+import { Montserrat } from 'next/font/google';
 
-const inter = Inter({
+// const inter = Inter({
+//   subsets: ['latin'],
+//   display: 'swap',
+// });
+
+// const roboto_mono = Roboto_Mono({
+//   subsets: ['latin'],
+//   display: 'swap',
+// });
+
+// const cormorant = Cormorant({
+//   subsets: ['latin'],
+//   display: 'swap',
+// });
+
+const montserrat = Montserrat({
   subsets: ['latin'],
   display: 'swap',
 });
 
-const roboto_mono = Roboto_Mono({
-  subsets: ['latin'],
-  display: 'swap',
-});
-
-const cormorant = Cormorant({
-  subsets: ['latin'],
-  display: 'swap',
-});
-
-export { inter, roboto_mono, cormorant };
+export { montserrat };
