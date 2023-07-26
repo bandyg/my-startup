@@ -6,7 +6,7 @@ const Nav = (props) => {
     props.setShowElement(!props.ShowElement);
   };
   return (
-    <div className="flex flex-row bg-black text-white">
+    <div className="flex flex-row justify-evenly bg-blue-500 text-black">
       <div>home</div>
       <div>projects</div>
       <div>about</div>
